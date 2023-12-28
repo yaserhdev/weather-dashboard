@@ -1,0 +1,20 @@
+main {
+    column-count: 2;
+    display: flex;
+}
+
+.search {
+    height: 35rem;
+}
+
+.today {
+    height: 20rem;
+}
+
+.five-day {
+    height: 15rem;
+}
+
+.column-2 {
+    column-width: 1000px;
+}
