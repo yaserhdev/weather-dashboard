@@ -1,6 +1,5 @@
 h1 {
     padding: 10px;
-    /*text-align: center;*/
 }
 
 main {
@@ -9,29 +8,10 @@ main {
     padding: 5px;
 }
 
-.search {
-    /*height: 40rem;*/
-    
-}
-
 #today {
     margin-bottom: 10px;
 }
 
-.today {
-    /*height: 20rem;*/
-}
-
-.five-day {
-    /*height: 19rem;*/
-}
-
-.column-1 {
-    /*column-width: 250px;*/
-    
-}
-
 .column-2 {
-    /*column-width: 750px;*/
     padding-left: 10px;
 }

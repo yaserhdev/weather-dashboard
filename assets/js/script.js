@@ -9,6 +9,26 @@ fetch(url)
         console.log(data);
 });
 
-var date = dayjs();
-  $('#date-today').text(date.format("MMM D, YYYY"));
+// Code to display today's date and the dates of the next 5 consecutive days
+let dateToday = new Date();
+$('#date-today').text(dateToday.toLocaleDateString());
 
+let dayOne = new Date();
+dayOne.setDate(dayOne.getDate() + 1);
+$('#day-one').text(dayOne.toLocaleDateString());
+
+let dayTwo = new Date();
+dayTwo.setDate(dayTwo.getDate() + 2);
+$('#day-two').text(dayTwo.toLocaleDateString());
+
+let dayThree = new Date();
+dayThree.setDate(dayThree.getDate() + 3);
+$('#day-three').text(dayThree.toLocaleDateString());
+
+let dayFour = new Date();
+dayFour.setDate(dayFour.getDate() + 4);
+$('#day-four').text(dayFour.toLocaleDateString());
+
+let dayFive = new Date();
+dayFive.setDate(dayFive.getDate() + 5);
+$('#day-five').text(dayFive.toLocaleDateString());
