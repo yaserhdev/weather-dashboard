@@ -1,15 +1,34 @@
-p {
-    font-size: 8pt;
+header {
+    background-color: #22ECFA;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Barlow Condensed";
 }
 
 h1 {
     padding: 10px;
+    text-align: center;
+}
+
+h5:hover {
+    cursor: pointer;
 }
 
 main {
     column-count: 2;
     display: flex;
     padding: 5px;
+}
+
+.card {
+    background-color: #B5DCFA;
 }
 
 #today {
@@ -26,5 +45,11 @@ main {
 
 #history {
     text-transform: capitalize;
+    padding: 5px 0 5px 0;
+}
+
+.search {
+    padding: 5px 0 5px 0;
+    background-color: #79D7FA;
 }
 
